@@ -4,6 +4,10 @@ class RichWord:
         self._corretta = None #this is a bool
 
     @property
+    def parola(self):
+        return self._parola
+
+    @property
     def corretta(self):
         # print("getter of parola called" )
         return self._corretta
